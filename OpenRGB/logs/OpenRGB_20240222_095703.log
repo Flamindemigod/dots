@@ -1,0 +1,77 @@
+    OpenRGB v0.9
+    Commit: b5f46e3f1de03595656c682fc2f068b66e735e63 from 2023-07-09 22:51:47 -0500
+    Launched: 20240222_095703
+====================================================================================================
+
+1015  |Info:    ------------------------------------------------------
+1015  |Info:    |               Start device detection               |
+1015  |Info:    ------------------------------------------------------
+1015  |Info:    Initializing HID interfaces: Success
+1022  |Info:    ------------------------------------------------------
+1022  |Info:    |             Detecting I2C interfaces               |
+1022  |Info:    ------------------------------------------------------
+1024  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:13C2 Subsystem: 1462:3160
+1024  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:13C2 Subsystem: 1462:3160
+1024  |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7B85
+1025  |Info:    Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1462:7B85
+1025  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:13C2 Subsystem: 1462:3160
+1025  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:13C2 Subsystem: 1462:3160
+1027  |Info:    Registering I2C interface: /dev/i2c-0 Device 10DE:13C2 Subsystem: 1462:3160
+1027  |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7B85
+1027  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:13C2 Subsystem: 1462:3160
+1027  |Info:    ------------------------------------------------------
+1027  |Info:    |               Detecting I2C devices                |
+1027  |Info:    ------------------------------------------------------
+2050  |Info:    ------------------------------------------------------
+2050  |Info:    |               Detecting I2C PCI devices            |
+2050  |Info:    ------------------------------------------------------
+2052  |Info:    ------------------------------------------------------
+2052  |Info:    |               Detecting HID devices                |
+2052  |Info:    ------------------------------------------------------
+2470  |Info:    [G502 HERO SE] Registering RGB controller
+2761  |Info:    [MSI B450 GAMING PRO CARBON AC (MS-7B85)] Registering RGB controller
+2761  |Info:    ------------------------------------------------------
+2761  |Info:    |            Detecting libusb HID devices            |
+2761  |Info:    ------------------------------------------------------
+2852  |Info:    ------------------------------------------------------
+2852  |Info:    |              Detecting other devices               |
+2852  |Info:    ------------------------------------------------------
+2862  |Info:    ------------------------------------------------------
+2862  |Info:    |                Detection completed                 |
+2862  |Info:    ------------------------------------------------------
+27647 |Info:    ------------------------------------------------------
+27647 |Info:    |               Start device detection               |
+27647 |Info:    ------------------------------------------------------
+27647 |Info:    Initializing HID interfaces: Success
+27652 |Info:    ------------------------------------------------------
+27652 |Info:    |             Detecting I2C interfaces               |
+27652 |Info:    ------------------------------------------------------
+27652 |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:13C2 Subsystem: 1462:3160
+27652 |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:13C2 Subsystem: 1462:3160
+27652 |Info:    Registering I2C interface: /dev/i2c-8 Device 1022:790B Subsystem: 1462:7B85
+27652 |Info:    Registering I2C interface: /dev/i2c-6 Device 1022:790B Subsystem: 1462:7B85
+27652 |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:13C2 Subsystem: 1462:3160
+27653 |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:13C2 Subsystem: 1462:3160
+27653 |Info:    Registering I2C interface: /dev/i2c-0 Device 10DE:13C2 Subsystem: 1462:3160
+27653 |Info:    Registering I2C interface: /dev/i2c-7 Device 1022:790B Subsystem: 1462:7B85
+27653 |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:13C2 Subsystem: 1462:3160
+27653 |Info:    ------------------------------------------------------
+27653 |Info:    |               Detecting I2C devices                |
+27653 |Info:    ------------------------------------------------------
+28672 |Info:    ------------------------------------------------------
+28672 |Info:    |               Detecting I2C PCI devices            |
+28672 |Info:    ------------------------------------------------------
+28673 |Info:    ------------------------------------------------------
+28673 |Info:    |               Detecting HID devices                |
+28673 |Info:    ------------------------------------------------------
+29091 |Info:    [G502 HERO SE] Registering RGB controller
+29385 |Info:    [MSI B450 GAMING PRO CARBON AC (MS-7B85)] Registering RGB controller
+29385 |Info:    ------------------------------------------------------
+29385 |Info:    |            Detecting libusb HID devices            |
+29385 |Info:    ------------------------------------------------------
+29461 |Info:    ------------------------------------------------------
+29461 |Info:    |              Detecting other devices               |
+29461 |Info:    ------------------------------------------------------
+29462 |Info:    ------------------------------------------------------
+29462 |Info:    |                Detection completed                 |
+29462 |Info:    ------------------------------------------------------

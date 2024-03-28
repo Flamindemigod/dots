@@ -1,0 +1,202 @@
+18:06:57.474: Platform: Wayland
+18:06:57.474: CPU Name: AMD Ryzen 7 2700X Eight-Core Processor
+18:06:57.474: CPU Speed: 4047.727MHz
+18:06:57.474: Physical Cores: 8, Logical Cores: 16
+18:06:57.474: Physical Memory: 64253MB Total, 9981MB Free
+18:06:57.474: Kernel Version: Linux 6.6.10-1-lts
+18:06:57.474: Distribution: "Arch Linux" Unknown
+18:06:57.474: Desktop Environment: Hyprland ()
+18:06:57.474: Session Type: wayland
+18:06:57.476: Qt Version: 6.6.1 (runtime), 6.6.1 (compiled)
+18:06:57.476: Portable mode: false
+18:06:57.506: OBS 30.0.0-rc1-245-g1e09f5a54 (linux)
+18:06:57.506: ---------------------------------
+18:06:57.506: ---------------------------------
+18:06:57.506: audio settings reset:
+18:06:57.506: 	samples per sec: 48000
+18:06:57.506: 	speakers:        2
+18:06:57.506: 	max buffering:   960 milliseconds
+18:06:57.506: 	buffering type:  dynamically increasing
+18:06:57.512: ---------------------------------
+18:06:57.512: Initializing OpenGL...
+18:06:57.512: Using EGL/Wayland
+18:06:57.523: Initialized EGL 1.5
+18:06:57.540: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 970/PCIe/SSE2
+18:06:57.540: OpenGL loaded successfully, version 3.3.0 NVIDIA 535.113.01, shading language 3.30 NVIDIA via Cg compiler
+18:06:57.570: ---------------------------------
+18:06:57.570: video settings reset:
+18:06:57.570: 	base resolution:   1920x1080
+18:06:57.570: 	output resolution: 1920x1080
+18:06:57.570: 	downscale filter:  Bicubic
+18:06:57.570: 	fps:               30/1
+18:06:57.570: 	format:            NV12
+18:06:57.570: 	YUV mode:          Rec. 709/Partial
+18:06:57.570: NV12 texture support not available
+18:06:57.570: P010 texture support not available
+18:06:57.570: Audio monitoring device:
+18:06:57.570: 	name: Default
+18:06:57.570: 	id: default
+18:06:57.570: ---------------------------------
+18:06:57.581: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:06:57.591: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:06:57.600: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:06:57.600: Failed to initialize module 'decklink.so'
+18:06:57.844: [pipewire] Available captures:
+18:06:57.844: [pipewire]     - Desktop capture
+18:06:57.844: [pipewire]     - Window capture
+18:06:57.882: [obs-browser]: Version 2.23.2
+18:06:57.882: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+18:06:57.940: NVENC supported
+18:06:57.940: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+18:06:57.988: VAAPI: API version 1.20
+18:06:58.010: FFmpeg VAAPI H264 encoding supported
+18:06:58.072: FFmpeg VAAPI HEVC encoding supported
+18:06:58.213: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.3.5 | RPC Version: 1)
+18:06:58.213: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.1 | Qt version (run-time): 6.6.1
+18:06:58.213: [obs-websocket] [obs_module_load] Linked ASIO Version: 102800
+18:06:58.218: [obs-websocket] [obs_module_load] Module loaded.
+18:06:58.271: [vlc-video]: VLC 3.0.20 Vetinari found, VLC video source enabled
+18:06:58.271: ---------------------------------
+18:06:58.271:   Loaded Modules:
+18:06:58.271:     vlc-video.so
+18:06:58.271:     text-freetype2.so
+18:06:58.271:     rtmp-services.so
+18:06:58.271:     obs-x264.so
+18:06:58.271:     obs-websocket.so
+18:06:58.271:     obs-vst.so
+18:06:58.271:     obs-transitions.so
+18:06:58.271:     obs-qsv11.so
+18:06:58.271:     obs-outputs.so
+18:06:58.271:     obs-filters.so
+18:06:58.271:     obs-ffmpeg.so
+18:06:58.271:     obs-browser.so
+18:06:58.271:     linux-v4l2.so
+18:06:58.271:     linux-pulseaudio.so
+18:06:58.271:     linux-pipewire.so
+18:06:58.271:     linux-jack.so
+18:06:58.271:     linux-capture.so
+18:06:58.271:     linux-alsa.so
+18:06:58.271:     image-source.so
+18:06:58.271:     frontend-tools.so
+18:06:58.271:     decklink-output-ui.so
+18:06:58.271:     decklink-captions.so
+18:06:58.271: ---------------------------------
+18:06:58.272: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+18:06:58.272: ==== Startup complete ===============================================
+18:06:58.385: All scene data cleared
+18:06:58.385: ------------------------------------------------
+18:06:58.389: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+18:06:58.389: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:06:58.389: pulse-input: Started recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor' (default)
+18:06:58.389: [Loaded global audio device]: 'Desktop Audio'
+18:06:58.389: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+18:06:58.389: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+18:06:58.389: pulse-input: Started recording from 'rnnoise_source'
+18:06:58.389: [Loaded global audio device]: 'Mic/Aux'
+18:06:58.389: Source ID 'pipewire_audio_application_capture' not found
+18:06:58.390: Failed to create source 'Divinity Audio Capture Source'!
+18:06:58.390: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+18:06:58.390: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+18:06:58.390: pulse-input: Started recording from 'alsa_input.usb-145f_Trust_GXT_232_Microphone-00.mono-fallback'
+18:06:58.391: Source ID 'pipewire_audio_application_capture' not found
+18:06:58.392: Failed to create source 'Discord Audio Cap Source'!
+18:06:58.434: Source ID 'pipewire_audio_application_capture' not found
+18:06:58.434: Failed to create source 'Anno Audio Capture'!
+18:06:58.435: Source ID 'pipewire_audio_application_capture' not found
+18:06:58.435: Failed to create source 'Dishonered Audio Capture'!
+18:06:58.435: PipeWire initialized
+18:06:58.441: Source ID 'pipewire_audio_application_capture' not found
+18:06:58.441: Failed to create source 'Genshin Audio Capture'!
+18:06:58.441: Source ID 'pipewire_audio_application_capture' not found
+18:06:58.441: Failed to create source 'YT Music'!
+18:06:58.441: Source ID 'pipewire_audio_application_capture' not found
+18:06:58.441: Failed to create source 'MPD'!
+18:06:58.441: Source ID 'pipewire_audio_application_capture' not found
+18:06:58.441: Failed to create source 'Honkai Audio Capture'!
+18:06:58.442: Source ID 'pipewire_audio_application_capture' not found
+18:06:58.442: Failed to create source 'Firefox'!
+18:06:58.442: Source ID 'pipewire_audio_application_capture' not found
+18:06:58.442: Failed to create source 'Barotrauma Audio'!
+18:06:58.443: Switched to scene 'Scene'
+18:06:58.444: ------------------------------------------------
+18:06:58.444: Loaded scenes:
+18:06:58.444: - scene 'Opening Scene':
+18:06:58.444:     - source: 'wp4802445-microsoft-mixer-wallpapers.jpg' (image_source)
+18:06:58.444:     - source: 'Starting Soon' (text_ft2_source_v2)
+18:06:58.444: - scene 'Scene':
+18:06:58.444:     - source: 'Mic Audio Capture' (scene)
+18:06:58.444:     - source: 'Discord Audio Capture' (scene)
+18:06:58.444:     - source: 'Divinity Original Sin' (scene)
+18:06:58.444:     - source: 'Dishonered' (scene)
+18:06:58.444:     - source: 'Genshin' (scene)
+18:06:58.444:     - source: 'Honkai Capture' (scene)
+18:06:58.444:     - source: 'Minecraft' (scene)
+18:06:58.444:     - source: 'YT Music' (pipewire_audio_application_capture)
+18:06:58.444:     - source: 'MPD' (pipewire_audio_application_capture)
+18:06:58.444:     - source: 'Main Monitor' (pipewire-window-capture-source)
+18:06:58.444:     - source: 'Firefox' (pipewire_audio_application_capture)
+18:06:58.444:     - source: 'Barotrauma Audio Capture' (scene)
+18:06:58.444: - scene 'Barotrauma Audio Capture':
+18:06:58.444:     - source: 'Barotrauma Audio' (pipewire_audio_application_capture)
+18:06:58.444: - scene 'Stream Ending':
+18:06:58.444:     - source: 'wp4802445-microsoft-mixer-wallpapers.jpg' (image_source)
+18:06:58.444:     - source: 'Ending' (text_ft2_source_v2)
+18:06:58.444: - scene 'Honkai Capture':
+18:06:58.444:     - source: 'Honkai Audio Capture' (pipewire_audio_application_capture)
+18:06:58.444: - scene 'Genshin':
+18:06:58.444:     - source: 'Genshin Audio Capture' (pipewire_audio_application_capture)
+18:06:58.444: - scene 'Dishonered':
+18:06:58.444:     - source: 'Dishonered Audio Capture' (pipewire_audio_application_capture)
+18:06:58.444: - scene 'Minecraft':
+18:06:58.444:     - source: 'Minecraft Audio Caputure' (jack_output_capture)
+18:06:58.444: - scene 'Divinity Original Sin':
+18:06:58.444:     - source: 'Divinity Audio Capture Source' (pipewire_audio_application_capture)
+18:06:58.444: - scene 'Anno':
+18:06:58.444:     - source: 'Discord Audio Capture' (scene)
+18:06:58.444:     - source: 'Anno Audio Capture' (pipewire_audio_application_capture)
+18:06:58.444: - scene 'Discord Audio Capture':
+18:06:58.444:     - source: 'Discord Audio Cap Source' (pipewire_audio_application_capture)
+18:06:58.444:         - filter: 'Noise Gate' (noise_gate_filter)
+18:06:58.444:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+18:06:58.444:         - filter: 'Compressor' (compressor_filter)
+18:06:58.444:         - filter: 'Limiter' (limiter_filter)
+18:06:58.444: - scene 'Mic Audio Capture':
+18:06:58.444:     - source: 'Mic Input Cap Source' (pulse_input_capture)
+18:06:58.444:         - filter: 'Noise Gate' (noise_gate_filter)
+18:06:58.444:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+18:06:58.444:         - filter: 'Compressor' (compressor_filter)
+18:06:58.445:         - filter: 'Limiter' (limiter_filter)
+18:06:58.445: ------------------------------------------------
+18:06:58.515: [pipewire] Screencast session created
+18:06:58.936: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+18:06:58.936: 
+18:06:58.978: adding 42 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic Input Cap Source)
+18:06:58.978: 
+18:07:01.409: [pipewire] Asking for window
+18:07:01.413: [pipewire] window selected, setting up screencast
+18:07:01.416: [pipewire] Server version: 1.0.0
+18:07:01.416: [pipewire] Library version: 1.0.1
+18:07:01.416: [pipewire] Header version: 1.0.1
+18:07:01.416: [pipewire] Created stream 0x55798dbd40a0
+18:07:01.416: [pipewire] Stream 0x55798dbd40a0 state: "connecting" (error: none)
+18:07:01.416: [pipewire] Playing stream 0x55798dbd40a0
+18:07:01.417: [pipewire] Stream 0x55798dbd40a0 state: "paused" (error: none)
+18:07:01.419: [pipewire] Negotiated format:
+18:07:01.419: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+18:07:01.419: [pipewire]     Modifier: 0x0
+18:07:01.419: [pipewire]     Size: 1920x1080
+18:07:01.419: [pipewire]     Framerate: 0/1
+18:07:01.419: [pipewire] Negotiated format:
+18:07:01.419: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+18:07:01.419: [pipewire]     Modifier: 0x300000000cdb014
+18:07:01.419: [pipewire]     Size: 1920x1080
+18:07:01.419: [pipewire]     Framerate: 0/1
+18:07:01.420: [pipewire] Stream 0x55798dbd40a0 state: "streaming" (error: none)
+18:07:05.631:   OpenType support missing for "Open Sans", script 11
+18:07:05.632:   OpenType support missing for "Arial", script 11
+18:07:05.634:   OpenType support missing for "Open Sans", script 12
+18:07:05.635:   OpenType support missing for "Arial", script 12
+18:07:05.635:   OpenType support missing for "Open Sans", script 16
+18:07:05.636:   OpenType support missing for "Arial", script 16
+18:07:05.638:   OpenType support missing for "Open Sans", script 20
+18:07:05.639:   OpenType support missing for "Arial", script 20

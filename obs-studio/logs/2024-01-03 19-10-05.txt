@@ -1,0 +1,327 @@
+19:10:05.207: [Safe Mode] Unclean shutdown detected!
+19:10:06.992: [Safe Mode] User elected to launch normally.
+19:10:06.998: Platform: Wayland
+19:10:06.998: CPU Name: AMD Ryzen 7 2700X Eight-Core Processor
+19:10:06.998: CPU Speed: 3734.462MHz
+19:10:06.998: Physical Cores: 8, Logical Cores: 16
+19:10:06.998: Physical Memory: 64254MB Total, 46615MB Free
+19:10:06.998: Kernel Version: Linux 6.1.70-1-lts
+19:10:06.998: Distribution: "Arch Linux" Unknown
+19:10:06.998: Desktop Environment: Hyprland ()
+19:10:06.998: Session Type: wayland
+19:10:07.000: Qt Version: 6.6.1 (runtime), 6.6.1 (compiled)
+19:10:07.000: Portable mode: false
+19:10:07.034: OBS 30.0.2-1 (linux)
+19:10:07.034: ---------------------------------
+19:10:07.035: ---------------------------------
+19:10:07.035: audio settings reset:
+19:10:07.035: 	samples per sec: 48000
+19:10:07.035: 	speakers:        2
+19:10:07.035: 	max buffering:   960 milliseconds
+19:10:07.035: 	buffering type:  dynamically increasing
+19:10:07.039: ---------------------------------
+19:10:07.039: Initializing OpenGL...
+19:10:07.039: Using EGL/Wayland
+19:10:07.039: Initialized EGL 1.5
+19:10:07.053: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 970/PCIe/SSE2
+19:10:07.053: OpenGL loaded successfully, version 3.3.0 NVIDIA 535.113.01, shading language 3.30 NVIDIA via Cg compiler
+19:10:07.083: ---------------------------------
+19:10:07.083: video settings reset:
+19:10:07.083: 	base resolution:   1920x1080
+19:10:07.083: 	output resolution: 1920x1080
+19:10:07.083: 	downscale filter:  Bicubic
+19:10:07.083: 	fps:               30/1
+19:10:07.083: 	format:            NV12
+19:10:07.083: 	YUV mode:          Rec. 709/Partial
+19:10:07.084: NV12 texture support not available
+19:10:07.084: P010 texture support not available
+19:10:07.091: Audio monitoring device:
+19:10:07.091: 	name: Default
+19:10:07.091: 	id: default
+19:10:07.091: ---------------------------------
+19:10:07.098: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:10:07.106: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:10:07.114: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:10:07.114: Failed to initialize module 'decklink.so'
+19:10:07.242: Failed to load 'en-GB' text for module: 'linux-pipewire-audio.so'
+19:10:07.257: [pipewire] Available captures:
+19:10:07.257: [pipewire]     - Desktop capture
+19:10:07.257: [pipewire]     - Window capture
+19:10:07.318: NVENC supported
+19:10:07.318: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+19:10:07.360: VAAPI: API version 1.20
+19:10:07.376: FFmpeg VAAPI H264 encoding supported
+19:10:07.419: FFmpeg VAAPI HEVC encoding supported
+19:10:07.551: ---------------------------------
+19:10:07.551:   Loaded Modules:
+19:10:07.551:     text-freetype2.so
+19:10:07.551:     rtmp-services.so
+19:10:07.551:     obs-x264.so
+19:10:07.551:     obs-vst.so
+19:10:07.551:     obs-transitions.so
+19:10:07.551:     obs-qsv11.so
+19:10:07.551:     obs-outputs.so
+19:10:07.551:     obs-libfdk.so
+19:10:07.551:     obs-filters.so
+19:10:07.551:     obs-ffmpeg.so
+19:10:07.551:     linux-v4l2.so
+19:10:07.551:     linux-pulseaudio.so
+19:10:07.551:     linux-pipewire.so
+19:10:07.551:     linux-pipewire-audio.so
+19:10:07.551:     linux-jack.so
+19:10:07.551:     linux-capture.so
+19:10:07.551:     linux-alsa.so
+19:10:07.551:     image-source.so
+19:10:07.551:     frontend-tools.so
+19:10:07.551:     decklink-output-ui.so
+19:10:07.551:     decklink-captions.so
+19:10:07.551: ---------------------------------
+19:10:07.551: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+19:10:07.552: ==== Startup complete ===============================================
+19:10:07.590: All scene data cleared
+19:10:07.590: ------------------------------------------------
+19:10:07.598: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+19:10:07.598: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+19:10:07.598: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+19:10:07.598: pulse-input: Started recording from 'bluez_output.38_18_4C_59_FD_DC.1.monitor' (default)
+19:10:07.598: [Loaded global audio device]: 'Desktop Audio'
+19:10:07.598: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+19:10:07.598: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+19:10:07.599: pulse-input: Started recording from 'rnnoise_source'
+19:10:07.599: [Loaded global audio device]: 'Mic/Aux'
+19:10:07.639: [pipewire] Created stream 0x55a9155ae440
+19:10:07.640: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+19:10:07.640: pulse-input: An error occurred while getting the source info!
+19:10:07.642: [pipewire] Created app capture sink 127 with 2 channels and position FL,FR
+19:10:07.643: [pipewire] Created stream 0x55a914c96670
+19:10:07.651: [pipewire] Created app capture sink 138 with 2 channels and position FL,FR
+19:10:07.665: [pipewire] 0x55a9155ae440 Got format: rate 48000 - channels 2 - format 8
+19:10:07.669: [pipewire] 0x55a914c96670 Got format: rate 48000 - channels 2 - format 8
+19:10:07.682: [pipewire] Created stream 0x55a915765ed0
+19:10:07.685: [pipewire] Created stream 0x55a914b34f40
+19:10:07.686: PipeWire initialized
+19:10:07.687: [pipewire] Created app capture sink 161 with 2 channels and position FL,FR
+19:10:07.695: [pipewire] Created app capture sink 167 with 2 channels and position FL,FR
+19:10:07.718: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Discord Audio Cap Source)
+19:10:07.718: 
+19:10:07.730: [pipewire] 0x55a915765ed0 Got format: rate 48000 - channels 2 - format 8
+19:10:07.735: [pipewire] Created stream 0x55a9154c6010
+19:10:07.737: [pipewire] Created stream 0x55a914a61720
+19:10:07.740: [pipewire] Created stream 0x55a91537c7d0
+19:10:07.742: [pipewire] Created stream 0x55a916045a80
+19:10:07.744: [pipewire] 0x55a914b34f40 Got format: rate 48000 - channels 2 - format 8
+19:10:07.745: [pipewire] Created stream 0x55a9160ce480
+19:10:07.747: [pipewire] Created app capture sink 194 with 2 channels and position FL,FR
+19:10:07.748: Switched to scene 'Scene'
+19:10:07.748: ------------------------------------------------
+19:10:07.748: Loaded scenes:
+19:10:07.748: - scene 'Opening Scene':
+19:10:07.748:     - source: 'wp4802445-microsoft-mixer-wallpapers.jpg' (image_source)
+19:10:07.748:     - source: 'Starting Soon' (text_ft2_source_v2)
+19:10:07.748: - scene 'Scene':
+19:10:07.748:     - source: 'Mic Audio Capture' (scene)
+19:10:07.748:     - source: 'Discord Audio Capture' (scene)
+19:10:07.748:     - source: 'Divinity Original Sin' (scene)
+19:10:07.748:     - source: 'Dishonered' (scene)
+19:10:07.748:     - source: 'Genshin' (scene)
+19:10:07.748:     - source: 'Honkai Capture' (scene)
+19:10:07.748:     - source: 'Minecraft' (scene)
+19:10:07.748:     - source: 'YT Music' (pipewire_audio_application_capture)
+19:10:07.748:     - source: 'MPD' (pipewire_audio_application_capture)
+19:10:07.748:     - source: 'Main Monitor' (pipewire-window-capture-source)
+19:10:07.748:     - source: 'Firefox' (pipewire_audio_application_capture)
+19:10:07.748: - scene 'Stream Ending':
+19:10:07.748:     - source: 'wp4802445-microsoft-mixer-wallpapers.jpg' (image_source)
+19:10:07.748:     - source: 'Ending' (text_ft2_source_v2)
+19:10:07.748: - scene 'Honkai Capture':
+19:10:07.748:     - source: 'Honkai Audio Capture' (pipewire_audio_application_capture)
+19:10:07.748: - scene 'Genshin':
+19:10:07.748:     - source: 'Genshin Audio Capture' (pipewire_audio_application_capture)
+19:10:07.748: - scene 'Dishonered':
+19:10:07.748:     - source: 'Dishonered Audio Capture' (pipewire_audio_application_capture)
+19:10:07.748: - scene 'Minecraft':
+19:10:07.748:     - source: 'Minecraft Audio Caputure' (jack_output_capture)
+19:10:07.748: - scene 'Divinity Original Sin':
+19:10:07.748:     - source: 'Divinity Audio Capture Source' (pipewire_audio_application_capture)
+19:10:07.748: - scene 'Anno':
+19:10:07.748:     - source: 'Discord Audio Capture' (scene)
+19:10:07.748:     - source: 'Anno Audio Capture' (pipewire_audio_application_capture)
+19:10:07.748: - scene 'Discord Audio Capture':
+19:10:07.748:     - source: 'Discord Audio Cap Source' (pipewire_audio_application_capture)
+19:10:07.748:         - filter: 'Noise Gate' (noise_gate_filter)
+19:10:07.748:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+19:10:07.748:         - filter: 'Compressor' (compressor_filter)
+19:10:07.748:         - filter: 'Limiter' (limiter_filter)
+19:10:07.748: - scene 'Mic Audio Capture':
+19:10:07.748:     - source: 'Mic Input Cap Source' (pulse_input_capture)
+19:10:07.748:         - filter: 'Noise Gate' (noise_gate_filter)
+19:10:07.748:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+19:10:07.748:         - filter: 'Compressor' (compressor_filter)
+19:10:07.748:         - filter: 'Limiter' (limiter_filter)
+19:10:07.748: ------------------------------------------------
+19:10:07.754: [pipewire] Created app capture sink 196 with 2 channels and position FL,FR
+19:10:07.757: [pipewire] Created app capture sink 200 with 2 channels and position FL,FR
+19:10:07.763: [pipewire] Created app capture sink 202 with 2 channels and position FL,FR
+19:10:07.769: [pipewire] Created app capture sink 208 with 2 channels and position FL,FR
+19:10:07.809: [pipewire] 0x55a9154c6010 Got format: rate 48000 - channels 2 - format 8
+19:10:07.810: [pipewire] 0x55a914a61720 Got format: rate 48000 - channels 2 - format 8
+19:10:07.810: [pipewire] 0x55a916045a80 Got format: rate 48000 - channels 2 - format 8
+19:10:07.810: [pipewire] 0x55a91537c7d0 Got format: rate 48000 - channels 2 - format 8
+19:10:07.819: [pipewire] 0x55a9160ce480 Got format: rate 48000 - channels 2 - format 8
+19:10:07.839: [pipewire] Screencast session created
+19:10:08.854: [pipewire] Asking for window
+19:10:08.856: [pipewire] window selected, setting up screencast
+19:10:08.914: [pipewire] Server version: 1.0.0
+19:10:08.914: [pipewire] Library version: 1.0.0
+19:10:08.914: [pipewire] Header version: 1.0.0
+19:10:08.914: [pipewire] Created stream 0x55a91616ab10
+19:10:08.914: [pipewire] Stream 0x55a91616ab10 state: "connecting" (error: none)
+19:10:08.914: [pipewire] Playing stream 0x55a91616ab10
+19:10:08.915: [pipewire] Stream 0x55a91616ab10 state: "paused" (error: none)
+19:10:08.920: [pipewire] Negotiated format:
+19:10:08.920: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:10:08.920: [pipewire]     Modifier: 0x0
+19:10:08.920: [pipewire]     Size: 1920x1080
+19:10:08.920: [pipewire]     Framerate: 0/1
+19:10:08.920: [pipewire] Negotiated format:
+19:10:08.920: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:10:08.920: [pipewire]     Modifier: 0x300000000cdb014
+19:10:08.920: [pipewire]     Size: 1920x1080
+19:10:08.920: [pipewire]     Framerate: 0/1
+19:10:08.921: [pipewire] Stream 0x55a91616ab10 state: "streaming" (error: none)
+19:10:12.018: [pipewire] Stream 0x55a91616ab10 state: "paused" (error: none)
+19:10:12.451: [pipewire] Stream 0x55a91616ab10 state: "streaming" (error: none)
+19:10:30.254: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+19:10:30.254: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+19:10:30.254: pulse-input: Started recording from 'alsa_input.usb-145f_Trust_GXT_232_Microphone-00.mono-fallback' (default)
+19:10:30.908: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic Input Cap Source)
+19:10:30.908: 
+19:11:55.300: ---------------------------------
+19:11:55.300: [x264 encoder: 'advanced_video_stream'] preset: veryfast
+19:11:55.300: [x264 encoder: 'advanced_video_stream'] tune: zerolatency
+19:11:55.305: [x264 encoder: 'advanced_video_stream'] settings:
+19:11:55.305: 	rate_control: CBR
+19:11:55.305: 	bitrate:      6000
+19:11:55.305: 	buffer size:  6000
+19:11:55.305: 	crf:          23
+19:11:55.305: 	fps_num:      30
+19:11:55.305: 	fps_den:      1
+19:11:55.305: 	width:        1920
+19:11:55.305: 	height:       1080
+19:11:55.305: 	keyint:       60
+19:11:55.305: 
+19:11:55.312: ---------------------------------
+19:11:55.312: [FFmpeg aac encoder: 'adv_stream_audio'] bitrate: 160, channels: 2, channel_layout: stereo
+19:11:55.312: 
+19:11:55.313: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmps://a.rtmps.youtube.com:443/live2...
+19:11:55.826: [rtmp stream: 'adv_stream'] Connection to rtmps://a.rtmps.youtube.com:443/live2 (142.250.200.44) successful
+19:11:55.828: ==== Streaming Start ===============================================
+19:12:00.999: [pipewire] Stream 0x55a91616ab10 state: "paused" (error: none)
+19:12:01.000: [pipewire] Stream 0x55a91616ab10 state: "unconnected" (error: none)
+19:12:01.004: PipeWire initialized
+19:12:01.007: [pipewire] Screencast session created
+19:12:02.429: [pipewire] Asking for window
+19:12:02.432: [pipewire] window selected, setting up screencast
+19:12:02.437: [pipewire] Server version: 1.0.0
+19:12:02.437: [pipewire] Library version: 1.0.0
+19:12:02.437: [pipewire] Header version: 1.0.0
+19:12:02.438: [pipewire] Created stream 0x55a91616ab10
+19:12:02.438: [pipewire] Stream 0x55a91616ab10 state: "connecting" (error: none)
+19:12:02.438: [pipewire] Playing stream 0x55a91616ab10
+19:12:02.438: [pipewire] Stream 0x55a91616ab10 state: "paused" (error: none)
+19:12:02.442: [pipewire] Negotiated format:
+19:12:02.442: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:12:02.442: [pipewire]     Modifier: 0x0
+19:12:02.442: [pipewire]     Size: 1920x1080
+19:12:02.442: [pipewire]     Framerate: 0/1
+19:12:02.442: [pipewire] Negotiated format:
+19:12:02.442: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:12:02.442: [pipewire]     Modifier: 0x300000000cdb014
+19:12:02.442: [pipewire]     Size: 1920x1080
+19:12:02.442: [pipewire]     Framerate: 0/1
+19:12:02.443: [pipewire] Stream 0x55a91616ab10 state: "streaming" (error: none)
+19:55:03.548: WriteN, RTMP send error 32 (4104 bytes)
+19:55:03.548: WriteN, RTMP send error 9 (59 bytes)
+19:55:03.548: WriteN, RTMP send error 9 (42 bytes)
+19:55:03.548: [rtmp stream: 'adv_stream'] Disconnected from rtmps://a.rtmps.youtube.com:443/live2
+19:55:03.548: Output 'adv_stream': stopping
+19:55:03.548: Output 'adv_stream': Total frames output: 77627
+19:55:03.548: Output 'adv_stream': Total drawn frames: 77647
+19:55:03.548: Output 'adv_stream': Reconnecting in 2.00 seconds..
+19:55:05.549: ---------------------------------
+19:55:05.549: [x264 encoder: 'advanced_video_stream'] preset: veryfast
+19:55:05.549: [x264 encoder: 'advanced_video_stream'] tune: zerolatency
+19:55:05.549: [x264 encoder: 'advanced_video_stream'] settings:
+19:55:05.549: 	rate_control: CBR
+19:55:05.549: 	bitrate:      6000
+19:55:05.549: 	buffer size:  6000
+19:55:05.549: 	crf:          23
+19:55:05.549: 	fps_num:      30
+19:55:05.549: 	fps_den:      1
+19:55:05.549: 	width:        1920
+19:55:05.549: 	height:       1080
+19:55:05.549: 	keyint:       60
+19:55:05.549: 
+19:55:05.562: ---------------------------------
+19:55:05.562: [FFmpeg aac encoder: 'adv_stream_audio'] bitrate: 160, channels: 2, channel_layout: stereo
+19:55:05.562: 
+19:55:05.563: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmps://a.rtmps.youtube.com:443/live2...
+19:55:05.999: [rtmp stream: 'adv_stream'] Connection to rtmps://a.rtmps.youtube.com:443/live2 (142.250.180.12) successful
+21:19:40.476: [rtmp stream: 'adv_stream'] User stopped the stream
+21:19:40.476: Output 'adv_stream': stopping
+21:19:40.476: Output 'adv_stream': Total frames output: 152230
+21:19:40.476: Output 'adv_stream': Total drawn frames: 152243 (152247 attempted)
+21:19:40.476: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 4 (0.0%)
+21:19:40.476: ==== Streaming Stop ================================================
+21:39:19.365: ---------------------------------
+21:39:19.365: [x264 encoder: 'advanced_video_stream'] preset: veryfast
+21:39:19.365: [x264 encoder: 'advanced_video_stream'] tune: zerolatency
+21:39:19.365: [x264 encoder: 'advanced_video_stream'] settings:
+21:39:19.365: 	rate_control: CBR
+21:39:19.365: 	bitrate:      6000
+21:39:19.365: 	buffer size:  6000
+21:39:19.365: 	crf:          23
+21:39:19.365: 	fps_num:      30
+21:39:19.365: 	fps_den:      1
+21:39:19.365: 	width:        1920
+21:39:19.365: 	height:       1080
+21:39:19.365: 	keyint:       60
+21:39:19.365: 
+21:39:19.373: ---------------------------------
+21:39:19.373: [FFmpeg aac encoder: 'adv_stream_audio'] bitrate: 160, channels: 2, channel_layout: stereo
+21:39:19.373: 
+21:39:19.374: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmps://a.rtmps.youtube.com:443/live2...
+21:39:19.813: [rtmp stream: 'adv_stream'] Connection to rtmps://a.rtmps.youtube.com:443/live2 (142.250.200.12) successful
+21:39:19.814: ==== Streaming Start ===============================================
+22:27:19.524: VBV underflow (frame 86390, -193504 bits)
+22:27:19.524: 
+22:54:22.190: VBV underflow (frame 135070, -551896 bits)
+22:54:22.190: 
+22:55:08.192: VBV underflow (frame 136450, -133608 bits)
+22:55:08.192: 
+23:13:54.919: [rtmp stream: 'adv_stream'] User stopped the stream
+23:13:54.919: Output 'adv_stream': stopping
+23:13:54.919: Output 'adv_stream': Total frames output: 170249
+23:13:54.919: Output 'adv_stream': Total drawn frames: 170265 (170267 attempted)
+23:13:54.919: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 2 (0.0%)
+23:13:54.919: ==== Streaming Stop ================================================
+23:14:11.097: [pipewire] Stream 0x55a91616ab10 state: "paused" (error: none)
+07:26:03.389: [pipewire] Error id:16 seq:185 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:16 seq:185 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:16 seq:215 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:16 seq:206 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:16 seq:289 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:44 seq:215 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:16 seq:188 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:16 seq:322 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:48 seq:322 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:45 seq:185 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:42 seq:185 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:16 seq:360 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:16 seq:194 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:40 seq:360 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:39 seq:206 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:47 seq:188 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:41 seq:289 res:-14 :Received error event
+07:26:03.389: [pipewire] Error id:46 seq:194 res:-14 :Received error event
+22:07:11.670: The Wayland connection broke. Did the Wayland compositor die?

@@ -1,0 +1,8 @@
+# GIMP gimp-fuzzy-select-tool options
+
+(feather yes)
+(sample-merged yes)
+(diagonal-neighbors yes)
+(select-criterion lch-l)
+
+# end of gimp-fuzzy-select-tool options

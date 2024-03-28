@@ -1,0 +1,397 @@
+21:47:05.535: Platform: Wayland
+21:47:05.536: CPU Name: AMD Ryzen 7 2700X Eight-Core Processor
+21:47:05.536: CPU Speed: 3956.804MHz
+21:47:05.536: Physical Cores: 8, Logical Cores: 16
+21:47:05.536: Physical Memory: 64254MB Total, 30156MB Free
+21:47:05.536: Kernel Version: Linux 6.1.70-1-lts
+21:47:05.536: Distribution: "Arch Linux" Unknown
+21:47:05.536: Desktop Environment: Hyprland ()
+21:47:05.536: Session Type: wayland
+21:47:05.539: Qt Version: 6.6.1 (runtime), 6.6.1 (compiled)
+21:47:05.539: Portable mode: false
+21:47:05.582: OBS 30.0.2-1 (linux)
+21:47:05.582: ---------------------------------
+21:47:05.583: ---------------------------------
+21:47:05.583: audio settings reset:
+21:47:05.583: 	samples per sec: 48000
+21:47:05.583: 	speakers:        2
+21:47:05.583: 	max buffering:   960 milliseconds
+21:47:05.583: 	buffering type:  dynamically increasing
+21:47:05.584: ---------------------------------
+21:47:05.584: Initializing OpenGL...
+21:47:05.584: Using EGL/Wayland
+21:47:05.598: Initialized EGL 1.5
+21:47:05.616: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 970/PCIe/SSE2
+21:47:05.616: OpenGL loaded successfully, version 3.3.0 NVIDIA 535.113.01, shading language 3.30 NVIDIA via Cg compiler
+21:47:05.651: ---------------------------------
+21:47:05.651: video settings reset:
+21:47:05.651: 	base resolution:   1920x1080
+21:47:05.651: 	output resolution: 1920x1080
+21:47:05.651: 	downscale filter:  Bicubic
+21:47:05.651: 	fps:               30/1
+21:47:05.651: 	format:            NV12
+21:47:05.651: 	YUV mode:          Rec. 709/Partial
+21:47:05.651: NV12 texture support not available
+21:47:05.651: P010 texture support not available
+21:47:05.652: Audio monitoring device:
+21:47:05.652: 	name: Default
+21:47:05.652: 	id: default
+21:47:05.652: ---------------------------------
+21:47:05.661: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:47:05.670: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:47:05.678: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:47:05.678: Failed to initialize module 'decklink.so'
+21:47:05.838: Failed to load 'en-GB' text for module: 'linux-pipewire-audio.so'
+21:47:05.855: [pipewire] Available captures:
+21:47:05.856: [pipewire]     - Desktop capture
+21:47:05.856: [pipewire]     - Window capture
+21:47:05.936: NVENC supported
+21:47:05.936: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+21:47:06.001: VAAPI: API version 1.20
+21:47:06.042: FFmpeg VAAPI H264 encoding supported
+21:47:06.146: FFmpeg VAAPI HEVC encoding supported
+21:47:06.359: ---------------------------------
+21:47:06.359:   Loaded Modules:
+21:47:06.359:     text-freetype2.so
+21:47:06.359:     rtmp-services.so
+21:47:06.359:     obs-x264.so
+21:47:06.359:     obs-vst.so
+21:47:06.359:     obs-transitions.so
+21:47:06.359:     obs-qsv11.so
+21:47:06.359:     obs-outputs.so
+21:47:06.359:     obs-libfdk.so
+21:47:06.359:     obs-filters.so
+21:47:06.359:     obs-ffmpeg.so
+21:47:06.359:     linux-v4l2.so
+21:47:06.359:     linux-pulseaudio.so
+21:47:06.359:     linux-pipewire.so
+21:47:06.359:     linux-pipewire-audio.so
+21:47:06.359:     linux-jack.so
+21:47:06.359:     linux-capture.so
+21:47:06.359:     linux-alsa.so
+21:47:06.359:     image-source.so
+21:47:06.359:     frontend-tools.so
+21:47:06.359:     decklink-output-ui.so
+21:47:06.359:     decklink-captions.so
+21:47:06.359: ---------------------------------
+21:47:06.360: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+21:47:06.360: ==== Startup complete ===============================================
+21:47:06.397: All scene data cleared
+21:47:06.397: ------------------------------------------------
+21:47:06.403: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+21:47:06.404: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:47:06.404: pulse-input: Started recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor' (default)
+21:47:06.404: [Loaded global audio device]: 'Desktop Audio'
+21:47:06.404: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+21:47:06.404: pulse-input: Audio format: float32le, 48000 Hz, 1 channels
+21:47:06.405: pulse-input: Started recording from 'rnnoise_source'
+21:47:06.405: [Loaded global audio device]: 'Mic/Aux'
+21:47:06.439: [pipewire] Created stream 0x557bdc0b7dc0
+21:47:06.441: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+21:47:06.441: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+21:47:06.441: pulse-input: Started recording from 'alsa_input.usb-145f_Trust_GXT_232_Microphone-00.mono-fallback'
+21:47:06.443: [pipewire] Created stream 0x557bde6870c0
+21:47:06.446: [pipewire] Created app capture sink 172 with 2 channels and position FL,FR
+21:47:06.459: [pipewire] Created app capture sink 206 with 2 channels and position FL,FR
+21:47:06.483: [pipewire] 0x557bdc0b7dc0 Got format: rate 48000 - channels 2 - format 8
+21:47:06.490: [pipewire] 0x557bde6870c0 Got format: rate 48000 - channels 2 - format 8
+21:47:06.496: [pipewire] Created stream 0x557bde6126c0
+21:47:06.498: [pipewire] Created stream 0x557bde632d90
+21:47:06.500: PipeWire initialized
+21:47:06.500: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Divinity Audio Capture Source)
+21:47:06.500: 
+21:47:06.504: [pipewire] Created app capture sink 168 with 2 channels and position FL,FR
+21:47:06.509: [pipewire] Created app capture sink 177 with 2 channels and position FL,FR
+21:47:06.565: [pipewire] Created stream 0x557bde705210
+21:47:06.568: [pipewire] Created stream 0x557bdef41040
+21:47:06.572: [pipewire] Created stream 0x557bdedf3ba0
+21:47:06.577: [pipewire] Created stream 0x557bded43e50
+21:47:06.580: [pipewire] 0x557bde632d90 Got format: rate 48000 - channels 2 - format 8
+21:47:06.580: [pipewire] Created stream 0x557bdfb622c0
+21:47:06.580: [pipewire] 0x557bde6126c0 Got format: rate 48000 - channels 2 - format 8
+21:47:06.583: [pipewire] Created stream 0x557bdfa6baa0
+21:47:06.587: Switched to scene 'Scene'
+21:47:06.588: ------------------------------------------------
+21:47:06.588: Loaded scenes:
+21:47:06.588: - scene 'Opening Scene':
+21:47:06.588:     - source: 'wp4802445-microsoft-mixer-wallpapers.jpg' (image_source)
+21:47:06.588:     - source: 'Starting Soon' (text_ft2_source_v2)
+21:47:06.588: - scene 'Scene':
+21:47:06.588:     - source: 'Mic Audio Capture' (scene)
+21:47:06.588:     - source: 'Discord Audio Capture' (scene)
+21:47:06.588:     - source: 'Divinity Original Sin' (scene)
+21:47:06.588:     - source: 'Dishonered' (scene)
+21:47:06.588:     - source: 'Genshin' (scene)
+21:47:06.588:     - source: 'Honkai Capture' (scene)
+21:47:06.588:     - source: 'Minecraft' (scene)
+21:47:06.588:     - source: 'YT Music' (pipewire_audio_application_capture)
+21:47:06.588:     - source: 'MPD' (pipewire_audio_application_capture)
+21:47:06.588:     - source: 'Main Monitor' (pipewire-window-capture-source)
+21:47:06.588:     - source: 'Firefox' (pipewire_audio_application_capture)
+21:47:06.588:     - source: 'Barotrauma Audio Capture' (scene)
+21:47:06.588: - scene 'Barotrauma Audio Capture':
+21:47:06.588:     - source: 'Barotrauma Audio' (pipewire_audio_application_capture)
+21:47:06.588: - scene 'Stream Ending':
+21:47:06.588:     - source: 'wp4802445-microsoft-mixer-wallpapers.jpg' (image_source)
+21:47:06.588:     - source: 'Ending' (text_ft2_source_v2)
+21:47:06.588: - scene 'Honkai Capture':
+21:47:06.588:     - source: 'Honkai Audio Capture' (pipewire_audio_application_capture)
+21:47:06.588: - scene 'Genshin':
+21:47:06.588:     - source: 'Genshin Audio Capture' (pipewire_audio_application_capture)
+21:47:06.588: - scene 'Dishonered':
+21:47:06.588:     - source: 'Dishonered Audio Capture' (pipewire_audio_application_capture)
+21:47:06.588: - scene 'Minecraft':
+21:47:06.588:     - source: 'Minecraft Audio Caputure' (jack_output_capture)
+21:47:06.588: - scene 'Divinity Original Sin':
+21:47:06.588:     - source: 'Divinity Audio Capture Source' (pipewire_audio_application_capture)
+21:47:06.588: - scene 'Anno':
+21:47:06.588:     - source: 'Discord Audio Capture' (scene)
+21:47:06.588:     - source: 'Anno Audio Capture' (pipewire_audio_application_capture)
+21:47:06.588: - scene 'Discord Audio Capture':
+21:47:06.588:     - source: 'Discord Audio Cap Source' (pipewire_audio_application_capture)
+21:47:06.588:         - filter: 'Noise Gate' (noise_gate_filter)
+21:47:06.588:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+21:47:06.588:         - filter: 'Compressor' (compressor_filter)
+21:47:06.588:         - filter: 'Limiter' (limiter_filter)
+21:47:06.588: - scene 'Mic Audio Capture':
+21:47:06.588:     - source: 'Mic Input Cap Source' (pulse_input_capture)
+21:47:06.588:         - filter: 'Noise Gate' (noise_gate_filter)
+21:47:06.588:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+21:47:06.588:         - filter: 'Compressor' (compressor_filter)
+21:47:06.588:         - filter: 'Limiter' (limiter_filter)
+21:47:06.588: ------------------------------------------------
+21:47:06.597: [pipewire] Created app capture sink 195 with 2 channels and position FL,FR
+21:47:06.597: [pipewire] Created app capture sink 104 with 2 channels and position FL,FR
+21:47:06.604: [pipewire] Created app capture sink 191 with 2 channels and position FL,FR
+21:47:06.610: [pipewire] Created app capture sink 125 with 2 channels and position FL,FR
+21:47:06.610: [pipewire] Created app capture sink 203 with 2 channels and position FL,FR
+21:47:06.613: [pipewire] Created app capture sink 182 with 2 channels and position FL,FR
+21:47:06.654: [pipewire] 0x557bdef41040 Got format: rate 48000 - channels 2 - format 8
+21:47:06.700: [pipewire] 0x557bdfb622c0 Got format: rate 48000 - channels 2 - format 8
+21:47:06.700: [pipewire] 0x557bded43e50 Got format: rate 48000 - channels 2 - format 8
+21:47:06.700: [pipewire] 0x557bde705210 Got format: rate 48000 - channels 2 - format 8
+21:47:06.700: [pipewire] 0x557bdedf3ba0 Got format: rate 48000 - channels 2 - format 8
+21:47:06.704: [pipewire] 0x557bdfa6baa0 Got format: rate 48000 - channels 2 - format 8
+21:47:06.710: [pipewire] Screencast session created
+21:47:06.766: [rtmp-services plugin] Successfully updated file 'services.json' (version 240)
+21:47:06.766: [rtmp-services plugin] Successfully updated package (version 240)
+21:47:06.970: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+21:47:06.970: 
+21:47:07.034: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic Input Cap Source)
+21:47:07.034: 
+21:47:12.989: [pipewire] Asking for window
+21:47:12.992: [pipewire] window selected, setting up screencast
+21:47:12.996: [pipewire] Server version: 1.0.0
+21:47:12.996: [pipewire] Library version: 1.0.0
+21:47:12.996: [pipewire] Header version: 1.0.0
+21:47:12.996: [pipewire] Created stream 0x557bdfd089d0
+21:47:12.996: [pipewire] Stream 0x557bdfd089d0 state: "connecting" (error: none)
+21:47:12.996: [pipewire] Playing stream 0x557bdfd089d0
+21:47:12.996: [pipewire] Stream 0x557bdfd089d0 state: "paused" (error: none)
+21:47:12.999: [pipewire] Negotiated format:
+21:47:12.999: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:47:12.999: [pipewire]     Modifier: 0x0
+21:47:12.999: [pipewire]     Size: 1920x1080
+21:47:12.999: [pipewire]     Framerate: 0/1
+21:47:12.999: [pipewire] Negotiated format:
+21:47:12.999: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+21:47:12.999: [pipewire]     Modifier: 0x300000000cdb014
+21:47:12.999: [pipewire]     Size: 1920x1080
+21:47:12.999: [pipewire]     Framerate: 0/1
+21:47:13.000: [pipewire] Stream 0x557bdfd089d0 state: "streaming" (error: none)
+21:48:46.147: ---------------------------------
+21:48:46.147: [x264 encoder: 'advanced_video_stream'] preset: veryfast
+21:48:46.147: [x264 encoder: 'advanced_video_stream'] tune: zerolatency
+21:48:46.147: [x264 encoder: 'advanced_video_stream'] settings:
+21:48:46.147: 	rate_control: CBR
+21:48:46.147: 	bitrate:      6000
+21:48:46.147: 	buffer size:  6000
+21:48:46.147: 	crf:          23
+21:48:46.147: 	fps_num:      30
+21:48:46.147: 	fps_den:      1
+21:48:46.147: 	width:        1920
+21:48:46.147: 	height:       1080
+21:48:46.147: 	keyint:       60
+21:48:46.147: 
+21:48:46.151: ---------------------------------
+21:48:46.152: [FFmpeg aac encoder: 'adv_stream_audio'] bitrate: 160, channels: 2, channel_layout: stereo
+21:48:46.152: 
+21:48:46.153: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmps://a.rtmps.youtube.com:443/live2...
+21:48:46.591: [rtmp stream: 'adv_stream'] Connection to rtmps://a.rtmps.youtube.com:443/live2 (142.250.187.204) successful
+21:48:46.593: ==== Streaming Start ===============================================
+22:51:03.857: [rtmp stream: 'adv_stream'] User stopped the stream
+22:51:03.857: Output 'adv_stream': stopping
+22:51:03.857: Output 'adv_stream': Total frames output: 112113
+22:51:03.857: Output 'adv_stream': Total drawn frames: 112128 (112131 attempted)
+22:51:03.857: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 3 (0.0%)
+22:51:03.857: ==== Streaming Stop ================================================
+14:19:59.572: ---------------------------------
+14:19:59.572: [x264 encoder: 'advanced_video_stream'] preset: veryfast
+14:19:59.572: [x264 encoder: 'advanced_video_stream'] tune: zerolatency
+14:19:59.572: [x264 encoder: 'advanced_video_stream'] settings:
+14:19:59.572: 	rate_control: CBR
+14:19:59.572: 	bitrate:      6000
+14:19:59.572: 	buffer size:  6000
+14:19:59.572: 	crf:          23
+14:19:59.572: 	fps_num:      30
+14:19:59.572: 	fps_den:      1
+14:19:59.572: 	width:        1920
+14:19:59.572: 	height:       1080
+14:19:59.572: 	keyint:       60
+14:19:59.572: 
+14:19:59.580: ---------------------------------
+14:19:59.581: [FFmpeg aac encoder: 'adv_stream_audio'] bitrate: 160, channels: 2, channel_layout: stereo
+14:19:59.581: 
+14:19:59.581: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmps://a.rtmps.youtube.com:443/live2...
+14:20:00.043: [rtmp stream: 'adv_stream'] Connection to rtmps://a.rtmps.youtube.com:443/live2 (142.250.178.12) successful
+14:20:00.045: ==== Streaming Start ===============================================
+14:20:15.227: VBV underflow (frame 454, -144896 bits)
+14:20:15.227: 
+14:42:48.963: VBV underflow (frame 41066, -44288 bits)
+14:42:48.963: 
+18:38:49.862: VBV underflow (frame 465893, -308432 bits)
+18:38:49.862: 
+19:14:47.026: VBV underflow (frame 530608, -249592 bits)
+19:14:47.026: 
+19:17:22.593: VBV underflow (frame 535275, -638560 bits)
+19:17:22.593: 
+19:40:07.494: VBV underflow (frame 576222, -34312 bits)
+19:40:07.494: 
+19:49:28.560: VBV underflow (frame 593054, -18656 bits)
+19:49:28.560: 
+19:52:03.693: VBV underflow (frame 597708, -131144 bits)
+19:52:03.693: 
+19:53:32.861: VBV underflow (frame 600383, -990832 bits)
+19:53:32.861: 
+20:00:40.328: VBV underflow (frame 613207, -481272 bits)
+20:00:40.328: 
+20:00:59.830: VBV underflow (frame 613792, -628592 bits)
+20:00:59.830: 
+20:03:55.026: VBV underflow (frame 619048, -127656 bits)
+20:03:55.026: 
+20:33:49.531: VBV underflow (frame 672883, -4448 bits)
+20:33:49.531: 
+20:56:02.723: VBV underflow (frame 712879, -289440 bits)
+20:56:02.723: 
+20:56:31.626: VBV underflow (frame 713746, -327304 bits)
+20:56:31.626: 
+20:56:33.624: VBV underflow (frame 713806, -292248 bits)
+20:56:33.624: 
+21:01:17.457: VBV underflow (frame 722321, -369096 bits)
+21:01:17.457: 
+21:01:19.458: VBV underflow (frame 722381, -236280 bits)
+21:01:19.458: 
+21:04:25.091: VBV underflow (frame 727950, -502856 bits)
+21:04:25.091: 
+21:04:27.092: VBV underflow (frame 728010, -307112 bits)
+21:04:27.092: 
+21:56:53.257: VBV underflow (frame 822395, -78072 bits)
+21:56:53.257: 
+22:02:05.224: VBV underflow (frame 831754, -185144 bits)
+22:02:05.224: 
+22:03:29.092: VBV underflow (frame 834270, -229608 bits)
+22:03:29.092: 
+22:13:59.826: VBV underflow (frame 853192, -62632 bits)
+22:13:59.826: 
+22:21:26.359: VBV underflow (frame 866588, -57064 bits)
+22:21:26.359: 
+22:32:23.826: VBV underflow (frame 886312, -153624 bits)
+22:32:23.826: 
+22:34:53.125: VBV underflow (frame 890791, -192904 bits)
+22:34:53.125: 
+22:42:41.992: VBV underflow (frame 904857, -112856 bits)
+22:42:41.992: 
+22:47:31.859: VBV underflow (frame 913553, -486752 bits)
+22:47:31.859: 
+23:23:50.148: [rtmp stream: 'adv_stream'] User stopped the stream
+23:23:50.149: Output 'adv_stream': stopping
+23:23:50.149: Output 'adv_stream': Total frames output: 978898
+23:23:50.149: Output 'adv_stream': Total drawn frames: 978910 (978917 attempted)
+23:23:50.149: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 7 (0.0%)
+23:23:50.149: ==== Streaming Stop ================================================
+23:23:51.668: ==== Shutting down ==================================================
+23:23:51.680: pulse-input: Stopped recording from 'alsa_output.pci-0000_28_00.3.analog-stereo.monitor'
+23:23:51.680: pulse-input: Got 3688149 packets with 4425778800 frames
+23:23:51.680: pulse-input: Stopped recording from 'rnnoise_source'
+23:23:51.680: pulse-input: Got 3687747 packets with 4425296400 frames
+23:23:51.682: [pipewire] Stream 0x557bdfd089d0 state: "paused" (error: none)
+23:23:51.682: [pipewire] Stream 0x557bdfd089d0 state: "unconnected" (error: none)
+23:23:51.686: pulse-input: Stopped recording from 'alsa_input.usb-145f_Trust_GXT_232_Microphone-00.mono-fallback'
+23:23:51.686: pulse-input: Got 3687745 packets with 4425294000 frames
+23:23:51.708: All scene data cleared
+23:23:51.708: ------------------------------------------------
+23:23:51.775: [Scripting] Total detached callbacks: 0
+23:23:51.775: Freeing OBS context data
+23:23:51.786: == Profiler Results =============================
+23:23:51.786: run_program_init: 1217.47 ms
+23:23:51.786:  ┣OBSApp::AppInit: 4.011 ms
+23:23:51.786:  ┃ ┗OBSApp::InitLocale: 0.771 ms
+23:23:51.786:  ┗OBSApp::OBSInit: 1168.17 ms
+23:23:51.786:    ┣obs_startup: 3.225 ms
+23:23:51.786:    ┗OBSBasic::OBSInit: 1121.16 ms
+23:23:51.786:      ┣OBSBasic::InitBasicConfig: 0.118 ms
+23:23:51.786:      ┣OBSBasic::ResetAudio: 0.161 ms
+23:23:51.786:      ┣OBSBasic::ResetVideo: 68.924 ms
+23:23:51.786:      ┃ ┗obs_init_graphics: 68.048 ms
+23:23:51.786:      ┃   ┗shader compilation: 34.235 ms
+23:23:51.786:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+23:23:51.786:      ┣OBSBasic::InitHotkeys: 0.027 ms
+23:23:51.786:      ┣obs_load_all_modules2: 707.328 ms
+23:23:51.786:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+23:23:51.786:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+23:23:51.786:      ┃ ┣obs_init_module(decklink.so): 0.14 ms
+23:23:51.786:      ┃ ┣obs_init_module(frontend-tools.so): 93.049 ms
+23:23:51.786:      ┃ ┣obs_init_module(image-source.so): 0.009 ms
+23:23:51.786:      ┃ ┣obs_init_module(linux-alsa.so): 0.004 ms
+23:23:51.786:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+23:23:51.786:      ┃ ┣obs_init_module(linux-jack.so): 0.003 ms
+23:23:51.786:      ┃ ┣obs_init_module(linux-pipewire-audio.so): 0.011 ms
+23:23:51.786:      ┃ ┣obs_init_module(linux-pipewire.so): 6.945 ms
+23:23:51.786:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.009 ms
+23:23:51.786:      ┃ ┣obs_init_module(linux-v4l2.so): 5.657 ms
+23:23:51.786:      ┃ ┣obs_init_module(obs-ffmpeg.so): 211.392 ms
+23:23:51.786:      ┃ ┃ ┗nvenc_check: 1.032 ms
+23:23:51.786:      ┃ ┣obs_init_module(obs-filters.so): 0.044 ms
+23:23:51.786:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+23:23:51.786:      ┃ ┣obs_init_module(obs-outputs.so): 0.006 ms
+23:23:51.786:      ┃ ┣obs_init_module(obs-qsv11.so): 101.203 ms
+23:23:51.786:      ┃ ┣obs_init_module(obs-transitions.so): 0.036 ms
+23:23:51.786:      ┃ ┣obs_init_module(obs-vst.so): 0.007 ms
+23:23:51.786:      ┃ ┣obs_init_module(obs-x264.so): 0.003 ms
+23:23:51.786:      ┃ ┣obs_init_module(rtmp-services.so): 0.694 ms
+23:23:51.786:      ┃ ┗obs_init_module(text-freetype2.so): 0.014 ms
+23:23:51.786:      ┣OBSBasic::InitService: 1.016 ms
+23:23:51.786:      ┣OBSBasic::ResetOutputs: 0.155 ms
+23:23:51.786:      ┣OBSBasic::CreateHotkeys: 0.026 ms
+23:23:51.786:      ┣OBSBasic::InitPrimitives: 0.141 ms
+23:23:51.786:      ┗OBSBasic::Load: 254.54 ms
+23:23:51.786: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.449 ms, 99th percentile=0.001 ms, 100% below 25 ms
+23:23:51.786: audio_thread(Audio): min=0.013 ms, median=0.209 ms, max=127.96 ms, 99th percentile=1.217 ms
+23:23:51.786:  ┗receive_audio: min=0.002 ms, median=0.132 ms, max=12.547 ms, 99th percentile=1.311 ms, 0.394414 calls per parent call
+23:23:51.786:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.744 ms, 99th percentile=0.005 ms
+23:23:51.786:    ┗do_encode: min=0.018 ms, median=0.128 ms, max=12.54 ms, 99th percentile=1.305 ms
+23:23:51.786:      ┣encode(adv_stream_audio): min=0.017 ms, median=0.117 ms, max=12.528 ms, 99th percentile=1.275 ms
+23:23:51.786:      ┗send_packet: min=0.001 ms, median=0.005 ms, max=2.053 ms, 99th percentile=0.062 ms
+23:23:51.786: obs_graphics_thread(33.3333 ms): min=0.117 ms, median=1.212 ms, max=232.689 ms, 99th percentile=6.259 ms, 99.9975% below 33.333 ms
+23:23:51.786:  ┣tick_sources: min=0.001 ms, median=0.016 ms, max=202.586 ms, 99th percentile=0.036 ms
+23:23:51.786:  ┣output_frame: min=0.061 ms, median=0.396 ms, max=142.053 ms, 99th percentile=1.443 ms
+23:23:51.786:  ┃ ┣gs_context(video->graphics): min=0.061 ms, median=0.381 ms, max=141.579 ms, 99th percentile=0.741 ms
+23:23:51.786:  ┃ ┃ ┣render_video: min=0.045 ms, median=0.36 ms, max=141.531 ms, 99th percentile=0.682 ms
+23:23:51.786:  ┃ ┃ ┃ ┣render_main_texture: min=0.037 ms, median=0.311 ms, max=141.307 ms, 99th percentile=0.541 ms
+23:23:51.786:  ┃ ┃ ┃ ┣render_convert_texture: min=0.046 ms, median=0.063 ms, max=7.13 ms, 99th percentile=0.124 ms, 0.394414 calls per parent call
+23:23:51.786:  ┃ ┃ ┃ ┗stage_output_texture: min=0.019 ms, median=0.027 ms, max=1.446 ms, 99th percentile=0.071 ms, 0.394414 calls per parent call
+23:23:51.786:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.004 ms, max=3.839 ms, 99th percentile=0.034 ms
+23:23:51.786:  ┃ ┃ ┗download_frame: min=0 ms, median=0.003 ms, max=0.486 ms, 99th percentile=0.006 ms, 0.394414 calls per parent call
+23:23:51.786:  ┃ ┗output_video_data: min=0.254 ms, median=0.403 ms, max=4.925 ms, 99th percentile=0.882 ms, 0.394413 calls per parent call
+23:23:51.786:  ┗render_displays: min=0.01 ms, median=0.714 ms, max=232.542 ms, 99th percentile=5.227 ms
+23:23:51.786: video_thread(video): min=2.868 ms, median=5.745 ms, max=62.455 ms, 99th percentile=15.266 ms
+23:23:51.786:  ┗receive_video: min=2.866 ms, median=5.743 ms, max=62.452 ms, 99th percentile=15.263 ms
+23:23:51.787:    ┗do_encode: min=2.865 ms, median=5.742 ms, max=62.45 ms, 99th percentile=15.261 ms
+23:23:51.787:      ┣encode(advanced_video_stream): min=2.802 ms, median=5.71 ms, max=62.39 ms, 99th percentile=15.23 ms
+23:23:51.787:      ┗send_packet: min=0.001 ms, median=0.022 ms, max=1.278 ms, 99th percentile=0.12 ms
+23:23:51.787: =================================================
+23:23:51.787: == Profiler Time Between Calls ==================
+23:23:51.787: obs_hotkey_thread(25 ms): min=25.007 ms, median=25.061 ms, max=30.724 ms, 99.8426% within ±2% of 25 ms (0% lower, 0.157444% higher)
+23:23:51.787: obs_graphics_thread(33.3333 ms): min=2.265 ms, median=33.333 ms, max=232.713 ms, 99.9783% within ±2% of 33.333 ms (0.0110623% lower, 0.0105923% higher)
+23:23:51.787: =================================================
+23:23:51.939: Number of memory leaks: 0

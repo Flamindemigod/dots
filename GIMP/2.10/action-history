@@ -1,0 +1,20 @@
+# GIMP action-history
+
+(history-item "tools-rotate" 2)
+(history-item "tools-move" 1)
+(history-item "edit-clear" 1)
+(history-item "tools-flip" 0)
+(history-item "edit-paste" 1)
+(history-item "tools-rect-select" 0)
+(history-item "layers-new" 0)
+(history-item "layers-delete" 1)
+(history-item "tools-unified-transform" 0)
+(history-item "tools-by-color-select" 0)
+(history-item "tools-fuzzy-select" 0)
+(history-item "edit-copy" 0)
+(history-item "layers-duplicate" 0)
+(history-item "layers-mask-add" 0)
+(history-item "file-export" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

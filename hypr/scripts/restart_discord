@@ -1,0 +1,3 @@
+pkill vencorddesktop
+sleep 1
+vencord-desktop&
