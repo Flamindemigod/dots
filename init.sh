@@ -7,12 +7,11 @@ pacman -Syu
 
 #Install Deps
 ## Yay
-cd /tmp
 sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 sudo makepkg -si
-cd /tmp
+cd ..
 rm -rf yay
 
 ##Pipewire
@@ -32,6 +31,11 @@ sudo systemctl enable nvidia-suspend.service
 sudo systemctl enable nvidia-hibernate.service
 sudo systemctl enable nvidia-resume.service
 
+### SDDM
+yay -S sddm
+sudo systemctl enable sddm.service
+sudo cp sddm/10-hyprland.conf /etc/sddm.conf.d/10-hyprland.conf
+sudo cp sddm/chili /usr/share/sddm/themes/chili
 
 ### Dunst
 yay -S dunst
