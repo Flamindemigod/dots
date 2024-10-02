@@ -14,6 +14,10 @@ set -xe
 #cd ..
 #rm -rf yay
 
+# Tmux Conf
+ln -s .tmux.conf /home/flamin/.tmux.conf
+
+
 ##Pipewire
 #yay -S pipewire lib32-pipewire wireplubmer pipewire-audio pipewire-alsa pipewire-pulse pipewire-jack lib32-pipewire-jack qjackctl noise-suppression-for-voice
 #systemctl enable --user pipewire-pulse.service
@@ -78,3 +82,4 @@ ln -s /home/flamin/dots/obs-studio obs-studio
 
 ## Steam
 #yay -S steam ttf-liberation lib32-systemd
+
