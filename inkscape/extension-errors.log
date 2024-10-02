@@ -4,6 +4,12 @@ Dependency:
 	location: path
 	string: scribus
 
+Extension "XFIG Input" failed to load because a dependency was not met.
+Dependency:
+	type: executable
+	location: path
+	string: fig2dev
+
 Extension "Optimized PNG" failed to load because a dependency was not met.
 Dependency:
 	type: executable
@@ -15,10 +21,4 @@ Dependency:
 	type: executable
 	location: path
 	string: pdflatex
-
-Extension "XFIG Input" failed to load because a dependency was not met.
-Dependency:
-	type: executable
-	location: path
-	string: fig2dev
 

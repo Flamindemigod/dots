@@ -4,7 +4,7 @@
 (dynamics "Dynamics Off")
 (gradient "FG to BG (RGB)")
 (palette "Colour History")
-(brush-size 18)
+(brush-size 35)
 (brush-hardness 0.5)
 
 # end of gimp-pencil-tool options

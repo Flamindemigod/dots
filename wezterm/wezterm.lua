@@ -1,7 +1,13 @@
 -- Pull in the wezterm API
 local wezterm = require 'wezterm'
+local gpus = wezterm.gui.enumerate_gpus()
+print(gpus)
+
 return {
-  -- option	= value	, [default] comment
+  webgpu_preferred_adapter = gpus[1],
+  front_end="WebGpu",
+  enable_wayland = true,
+	-- option	= value	, [default] comment
   -- Fonts
   font     	= wezterm.font("Fira Code")                             	, -- [JetBrains Mono]
   -- font  	= wezterm.font("JetBrains Mono", {weight="Bold",italic=true})	, -- [JetBrains Mono] Name with parameters
