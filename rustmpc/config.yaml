@@ -1,0 +1,107 @@
+mpd:
+  addr: '127.0.0.1:6600'
+  password: null
+keybinds:
+  up:
+  - !Key
+    code: !Char 'j'
+    modifiers: ''
+    kind: Press
+    state: ''
+  down:
+  - !Key
+    code: !Char 'k'
+    modifiers: ''
+    kind: Press
+    state: ''
+  play_pause:
+  - !Key
+    code: !Media Play
+    modifiers: ''
+    kind: Press
+    state: ''
+  - !Key
+    code: !Char ' '
+    modifiers: ''
+    kind: Press
+    state: ''
+  stop:
+  - !Key
+    code: !Media Stop
+    modifiers: ''
+    kind: Press
+    state: ''
+  - !Key
+    code: !Char 's'
+    modifiers: ''
+    kind: Press
+    state: ''
+  next:
+  - !Key
+    code: !Char 'n'
+    modifiers: ''
+    kind: Press
+    state: ''
+  - !Key
+    code: !Media TrackNext
+    modifiers: ''
+    kind: Press
+    state: ''
+  prev:
+  - !Key
+    code: !Char 'N'
+    modifiers: ''
+    kind: Press
+    state: ''
+  - !Key
+    code: !Media TrackPrevious
+    modifiers: ''
+    kind: Press
+    state: ''
+  repeat:
+  - !Key
+    code: !Char 'r'
+    modifiers: ''
+    kind: Press
+    state: ''
+  shuffle:
+  - !Key
+    code: !Char 's'
+    modifiers: SHIFT
+    kind: Press
+    state: ''
+  clear_queue:
+  - !Key
+    code: !Char 'd'
+    modifiers: ''
+    kind: Press
+    state: ''
+  add_to_queue:
+  - !Key
+    code: !Char 'a'
+    modifiers: ''
+    kind: Press
+    state: ''
+  vol_up:
+  - !Key
+    code: !Char '+'
+    modifiers: ''
+    kind: Press
+    state: ''
+  - !Key
+    code: !Media RaiseVolume
+    modifiers: ''
+    kind: Press
+    state: ''
+  vol_down:
+  - !Key
+    code: !Char '-'
+    modifiers: ''
+    kind: Press
+    state: ''
+  - !Key
+    code: !Media LowerVolume
+    modifiers: ''
+    kind: Press
+    state: ''
+
