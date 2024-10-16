@@ -23,3 +23,31 @@
 
 2024/09/16 (12:50:08) | ===> btop++ v.1.3.2
 2024/09/16 (12:50:08) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+
+2024/10/10 (09:03:44) | ===> btop++ v.1.3.2
+2024/10/10 (09:03:44) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/10/10 (09:03:48) | ===> btop++ v.1.3.2
+2024/10/10 (09:03:48) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/10/11 (10:26:49) | ===> btop++ v.1.3.2
+2024/10/11 (10:26:49) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/10/11 (10:27:07) | ===> btop++ v.1.3.2
+2024/10/11 (10:27:07) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/10/11 (19:37:32) | ===> btop++ v.1.3.2
+2024/10/11 (19:37:32) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/11 (19:38:01) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2024/10/11 (19:38:01) | ERROR: Couldn't determine terminal size of "/dev/tty"!
+
+2024/10/14 (00:40:54) | ===> btop++ v.1.3.2
+2024/10/14 (00:40:54) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/10/14 (00:43:11) | ===> btop++ v.1.3.2
+2024/10/14 (00:43:11) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+
+2024/10/14 (18:10:41) | ===> btop++ v.1.3.2
+2024/10/14 (18:10:41) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/10/14 (18:11:44) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2024/10/14 (18:11:44) | ERROR: Couldn't determine terminal size of "/dev/tty"!

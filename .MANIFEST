@@ -1,0 +1,33 @@
+#This is a comment
+#Manifest File format is such
+#<<src>>|<<dest>>|<<link_mode>>
+
+#<<src>> and <<dest>> are required to be paths.
+#These paths can be either absolute or relative
+#(But require them to be relative to the manifest file)
+#relative paths do not care where you run the executable
+#from as long as it has a manfiest file to build paths off of
+
+#<<link_mode>> can be of type `symlink` and more later probably
+
+#So in short a example of a line in the manifest is such
+#nvim|~/.config/nvim|symlink
+
+#if your paths contain | then enclose the path within a quote like
+#'~/.config/bobs|special|config'
+#both ' and " are valid quote characters
+./nvim|~/.config/nvim|symlink
+./btop|~/.config/btop|symlink
+./ckb-next|~/.config/ckb-next|symlink
+./dunst|~/.config/dunst|symlink
+./gomp|~/.config/gomp|symlink
+./htop|~/.config/htop|symlink
+./hypr|~/.config/hypr|symlink
+./inkscape|~/.config/inkscape|symlink
+./MangoHud|~/.config/MangoHud|symlink
+./mpd|~/.config/mpd|symlink
+./OpenRGB|~/.config/OpenRGB|symlink
+./tmux|~/.config/tmux|symlink
+./waybar|~/.config/waybar|symlink
+
+#pipewire / sddm / systemd /
